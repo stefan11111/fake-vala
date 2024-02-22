@@ -1,6 +1,6 @@
 all:
 
-install: kirc
+install:
 	mkdir -p $(DESTDIR)/usr/bin
 	cp valac $(DESTDIR)/usr/bin
 uninstall:
