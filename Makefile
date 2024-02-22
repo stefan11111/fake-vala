@@ -5,4 +5,4 @@ install:
 	cp valac $(DESTDIR)/usr/bin
 uninstall:
 	rm -f $(DESTDIR)/usr/bin/valac
-.PHONY: all install uninstall
+#.PHONY: all install uninstall
